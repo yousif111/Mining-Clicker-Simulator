@@ -1,5 +1,5 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "NoMoreLife#6829", HidePremium = false, SaveConfig = false, ConfigFolder = "OrionTest"})
+local Window = OrionLib:MakeWindow({Name = "Old | NoMoreLife#6829", HidePremium = false, SaveConfig = false, ConfigFolder = "OrionTest"})
 repeat task.wait() until game:IsLoaded()
 local sfm = require(game.ReplicatedStorage.Modules:WaitForChild("SuffixModule"))
 local pm = require(game:GetService("ReplicatedStorage").Modules.pickaxesModule)
